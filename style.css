@@ -1,13 +1,69 @@
+html{
+    scroll-behavior: smooth;
+}
 .navbar{
     margin-bottom: 0;
     border-radius: 0;
+    width: 100%;
+}
+body{
+    background-image: linear-gradient(wheat,white);
+}
+.start{
+    background-image: radial-gradient(wheat,lightblue);
 }
 footer{
-    background-color: #f2f2f2;
+    color: white;
+    background-color: black;
     padding: 25px;
 }
 .affix{
     top: 0;
     width: 100%;
     z-index: 9999 !important;
+}
+.head{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding-top: 12px;
+    text-align: center;
+    
+}
+.image1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.image2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.image3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.image4:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.image5:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.image6:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.end{
+    background-color: black; 
+    margin: 0%;
+}
+.back:hover{
+    font-size: large;
+    cursor: pointer;
+
+}
+.print:hover{
+    cursor: pointer;
 }
